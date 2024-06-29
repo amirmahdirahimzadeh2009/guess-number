@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/pasor-image.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.gameover {
+  background-image: url("../img/gameover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+.hearts {
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 100px;
+  background-color: #be9fe1;
+  font-size: 32px;
+  margin: auto;
+}
+.userForm {
+  text-align: center;
+  margin: 15px;
+}
+.guess {
+  margin: 30px;
+  background: none;
+  border: none;
+  width: 260px;
+  max-width: 300px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 9999px;
+  background-color: #d3cedf;
+}
+.submit {
+  background-color: #8675a9;
+  border-radius: 10px;
+  margin-top: 5px;
+  width: 150px;
+  height: 40px;
+  border: none;
+}
+.text {
+  background-color: #c9b6e4;
+  border-radius: 16px;
+  width: 300px;
+  text-align: center;
+  color: #8675a9;
+  font-size: 16px;
+  margin: auto;
+}
+.newButton {
+  background-color: #d3cedf;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+}
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100vw;
+}
+.item img {
+  width: 40px;
+  height: 40px;
+}
+.item {
+  margin-left: 2px;
+}
